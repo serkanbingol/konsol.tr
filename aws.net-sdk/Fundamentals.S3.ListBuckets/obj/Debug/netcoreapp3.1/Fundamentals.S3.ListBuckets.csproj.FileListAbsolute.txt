@@ -1,0 +1,16 @@
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.deps.json
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.runtimeconfig.json
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.runtimeconfig.dev.json
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.dll
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.pdb
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/AWSSDK.Core.dll
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/bin/Debug/netcoreapp3.1/AWSSDK.S3.dll
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.csprojAssemblyReference.cache
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.csproj.CoreCompileInputs.cache
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.AssemblyInfoInputs.cache
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.AssemblyInfo.cs
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.csproj.CopyComplete
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.dll
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.pdb
+/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.ListBuckets/obj/Debug/netcoreapp3.1/Fundamentals.S3.ListBuckets.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "wbAVKu4lhKK4bH5hDV+cDeUNaij5QgblrH5xlD1H/lKypNQoyTfMq/Md52HGSBqW68R5KfyOkILUHrtsiHtXbw==",
+  "success": true,
+  "projectFilePath": "/home/srknbngl/001_repos/aws_dotnetcore_fundamentals/Fundamentals.S3.CreateBucket/Fundamentals.S3.CreateBucket.csproj",
+  "expectedPackageFiles": [
+    "/home/srknbngl/.nuget/packages/awssdk.core/3.5.0-beta/awssdk.core.3.5.0-beta.nupkg.sha512",
+    "/home/srknbngl/.nuget/packages/awssdk.s3/3.5.0-beta/awssdk.s3.3.5.0-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

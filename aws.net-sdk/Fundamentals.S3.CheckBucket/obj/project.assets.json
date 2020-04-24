@@ -1,0 +1,146 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Core/3.5.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.S3/3.5.0-beta": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0-beta, 3.6.0-beta)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.S3.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.5.0-beta": {
+      "sha512": "ZRFwKVPowoB87Fgof6F9Vxr/6/3TvAc7Pc17S74oUCCEbPnMLZtELqEREDiWMqkUYZxwcFrgmpML8LQl792XzA==",
+      "type": "package",
+      "path": "awssdk.core/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.5.0-beta.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.S3/3.5.0-beta": {
+      "sha512": "D8YSmwhaRxQ2w38Z1NPtWU3AsLhyTZrQo+CxAKGH8VaSjd6Fbn3ip2uRt50o+gaJxQ+SOdZeebh91VqcHEgLqg==",
+      "type": "package",
+      "path": "awssdk.s3/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.S3.CodeAnalysis.dll",
+        "awssdk.s3.3.5.0-beta.nupkg.sha512",
+        "awssdk.s3.nuspec",
+        "lib/net35/AWSSDK.S3.dll",
+        "lib/net35/AWSSDK.S3.pdb",
+        "lib/net35/AWSSDK.S3.xml",
+        "lib/net45/AWSSDK.S3.dll",
+        "lib/net45/AWSSDK.S3.pdb",
+        "lib/net45/AWSSDK.S3.xml",
+        "lib/netstandard1.3/AWSSDK.S3.dll",
+        "lib/netstandard1.3/AWSSDK.S3.pdb",
+        "lib/netstandard1.3/AWSSDK.S3.xml",
+        "lib/netstandard2.0/AWSSDK.S3.dll",
+        "lib/netstandard2.0/AWSSDK.S3.pdb",
+        "lib/netstandard2.0/AWSSDK.S3.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.S3 >= 3.5.0-beta"
+    ]
+  },
+  "packageFolders": {
+    "/home/srknbngl/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/srknbngl/001_repos/konsol.tr_aws.net-sdk/Fundamentals.S3.CheckBucket/Fundamentals.S3.CheckBucket.csproj",
+      "projectName": "Fundamentals.S3.CheckBucket",
+      "projectPath": "/home/srknbngl/001_repos/konsol.tr_aws.net-sdk/Fundamentals.S3.CheckBucket/Fundamentals.S3.CheckBucket.csproj",
+      "packagesPath": "/home/srknbngl/.nuget/packages/",
+      "outputPath": "/home/srknbngl/001_repos/konsol.tr_aws.net-sdk/Fundamentals.S3.CheckBucket/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/srknbngl/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.S3": {
+            "target": "Package",
+            "version": "[3.5.0-beta, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
