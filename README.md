@@ -4,7 +4,7 @@
 
 
 ## Örnek Uygulama
-![alt text](https://github.com/suadev/docker-workshop-with-react-aspnetcore-redis-rabbitmq-mssql/blob/master/react_ui/public/screencast.gif)
+![örnek proje](https://raw.githubusercontent.com/serkanbingol/konsol.tr/master/images/konsol_tr.gif)
 ## Konsol Projeleri 
 
 - **aws.net-sdk**  : *AWS için .Net SDK kullanımına ait bilgilendirici konsol uygulamaları içerir.*
