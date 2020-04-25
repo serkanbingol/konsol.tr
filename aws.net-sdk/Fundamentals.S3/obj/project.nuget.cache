@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bx8ou0HrJHEBA/Uz1s4OjOSszF7dlWHKVVNwATyxTVPq7ro+jNLz6016FblyVHTIlJWcrwKVjeo/ThHftcY1/A==",
+  "success": true,
+  "projectFilePath": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/Fundamentals.S3.csproj",
+  "expectedPackageFiles": [
+    "/home/srknbngl/.nuget/packages/awssdk.core/3.5.0-beta/awssdk.core.3.5.0-beta.nupkg.sha512",
+    "/home/srknbngl/.nuget/packages/awssdk.s3/3.5.0-beta/awssdk.s3.3.5.0-beta.nupkg.sha512"
+  ],
+  "logs": []
+}
