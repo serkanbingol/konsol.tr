@@ -1,0 +1,16 @@
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3.deps.json
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3.runtimeconfig.json
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3.runtimeconfig.dev.json
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3.dll
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/Fundamentals.S3.pdb
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/AWSSDK.Core.dll
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/bin/Debug/netcoreapp3.1/AWSSDK.S3.dll
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.csprojAssemblyReference.cache
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.csproj.CoreCompileInputs.cache
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.AssemblyInfoInputs.cache
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.AssemblyInfo.cs
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.csproj.CopyComplete
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.dll
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.pdb
+/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.S3/obj/Debug/netcoreapp3.1/Fundamentals.S3.genruntimeconfig.cache
