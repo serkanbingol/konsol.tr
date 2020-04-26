@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "gz3xvnGoAEguU8fDyI+9kkAYZ6Mi5LICVAAxhtf8H6jweg1a6qe9Q6srr/h28KiAg7OwynamEffuIZNKTAZQcQ==",
+  "success": true,
+  "projectFilePath": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Glacier/Fundamentals.Glacier.csproj",
+  "expectedPackageFiles": [
+    "/home/srknbngl/.nuget/packages/awssdk.core/3.5.0-beta/awssdk.core.3.5.0-beta.nupkg.sha512",
+    "/home/srknbngl/.nuget/packages/awssdk.glacier/3.5.0-beta/awssdk.glacier.3.5.0-beta.nupkg.sha512",
+    "/home/srknbngl/.nuget/packages/awssdk.simplenotificationservice/3.5.0-beta/awssdk.simplenotificationservice.3.5.0-beta.nupkg.sha512",
+    "/home/srknbngl/.nuget/packages/awssdk.sqs/3.5.0-beta/awssdk.sqs.3.5.0-beta.nupkg.sha512"
+  ],
+  "logs": []
+}

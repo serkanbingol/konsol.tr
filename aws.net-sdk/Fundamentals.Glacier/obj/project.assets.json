@@ -1,0 +1,246 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "AWSSDK.Core/3.5.0-beta": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Core.dll": {}
+        }
+      },
+      "AWSSDK.Glacier/3.5.0-beta": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0-beta, 3.6.0-beta)",
+          "AWSSDK.SQS": "[3.5.0-beta, 3.6.0-beta)",
+          "AWSSDK.SimpleNotificationService": "[3.5.0-beta, 3.6.0-beta)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.Glacier.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.Glacier.dll": {}
+        }
+      },
+      "AWSSDK.SimpleNotificationService/3.5.0-beta": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0-beta, 3.6.0-beta)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.SimpleNotificationService.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SimpleNotificationService.dll": {}
+        }
+      },
+      "AWSSDK.SQS/3.5.0-beta": {
+        "type": "package",
+        "dependencies": {
+          "AWSSDK.Core": "[3.5.0-beta, 3.6.0-beta)"
+        },
+        "compile": {
+          "lib/netstandard2.0/AWSSDK.SQS.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SQS.dll": {}
+        }
+      },
+      "Fundamentals.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Fundamentals.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Fundamentals.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AWSSDK.Core/3.5.0-beta": {
+      "sha512": "ZRFwKVPowoB87Fgof6F9Vxr/6/3TvAc7Pc17S74oUCCEbPnMLZtELqEREDiWMqkUYZxwcFrgmpML8LQl792XzA==",
+      "type": "package",
+      "path": "awssdk.core/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "awssdk.core.3.5.0-beta.nupkg.sha512",
+        "awssdk.core.nuspec",
+        "lib/net35/AWSSDK.Core.dll",
+        "lib/net35/AWSSDK.Core.pdb",
+        "lib/net35/AWSSDK.Core.xml",
+        "lib/net45/AWSSDK.Core.dll",
+        "lib/net45/AWSSDK.Core.pdb",
+        "lib/net45/AWSSDK.Core.xml",
+        "lib/netstandard1.3/AWSSDK.Core.dll",
+        "lib/netstandard1.3/AWSSDK.Core.pdb",
+        "lib/netstandard1.3/AWSSDK.Core.xml",
+        "lib/netstandard2.0/AWSSDK.Core.dll",
+        "lib/netstandard2.0/AWSSDK.Core.pdb",
+        "lib/netstandard2.0/AWSSDK.Core.xml",
+        "tools/account-management.ps1"
+      ]
+    },
+    "AWSSDK.Glacier/3.5.0-beta": {
+      "sha512": "i2nJUpfpHgBQVOdmWX/fWZAaXKogAsCd9aMJjjhagtSP914IdsMmEsCcDa+h3Q8vzhVs5EjDfwT86H1gXbD4tA==",
+      "type": "package",
+      "path": "awssdk.glacier/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.Glacier.CodeAnalysis.dll",
+        "awssdk.glacier.3.5.0-beta.nupkg.sha512",
+        "awssdk.glacier.nuspec",
+        "lib/net35/AWSSDK.Glacier.dll",
+        "lib/net35/AWSSDK.Glacier.pdb",
+        "lib/net35/AWSSDK.Glacier.xml",
+        "lib/net45/AWSSDK.Glacier.dll",
+        "lib/net45/AWSSDK.Glacier.pdb",
+        "lib/net45/AWSSDK.Glacier.xml",
+        "lib/netstandard1.3/AWSSDK.Glacier.dll",
+        "lib/netstandard1.3/AWSSDK.Glacier.pdb",
+        "lib/netstandard1.3/AWSSDK.Glacier.xml",
+        "lib/netstandard2.0/AWSSDK.Glacier.dll",
+        "lib/netstandard2.0/AWSSDK.Glacier.pdb",
+        "lib/netstandard2.0/AWSSDK.Glacier.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SimpleNotificationService/3.5.0-beta": {
+      "sha512": "FcJq8L0p9qx46/hrS805hvgrm7h+WGc3dW5KokbEiAAbeJ7PdK8pW7HcShAr0HFbzai0JXCJP3TAIulYzQZaUg==",
+      "type": "package",
+      "path": "awssdk.simplenotificationservice/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SimpleNotificationService.CodeAnalysis.dll",
+        "awssdk.simplenotificationservice.3.5.0-beta.nupkg.sha512",
+        "awssdk.simplenotificationservice.nuspec",
+        "lib/net35/AWSSDK.SimpleNotificationService.dll",
+        "lib/net35/AWSSDK.SimpleNotificationService.pdb",
+        "lib/net35/AWSSDK.SimpleNotificationService.xml",
+        "lib/net45/AWSSDK.SimpleNotificationService.dll",
+        "lib/net45/AWSSDK.SimpleNotificationService.pdb",
+        "lib/net45/AWSSDK.SimpleNotificationService.xml",
+        "lib/netstandard1.3/AWSSDK.SimpleNotificationService.dll",
+        "lib/netstandard1.3/AWSSDK.SimpleNotificationService.pdb",
+        "lib/netstandard1.3/AWSSDK.SimpleNotificationService.xml",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.dll",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.pdb",
+        "lib/netstandard2.0/AWSSDK.SimpleNotificationService.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "AWSSDK.SQS/3.5.0-beta": {
+      "sha512": "8dl/qIcE3x6ANlPR7pxgnaGLLSJUNLJ1I3NnvlFGoOzjjt4hlmppKJ79LNLxbKVjGKLTlC9mn/H2s3YC0tDF1g==",
+      "type": "package",
+      "path": "awssdk.sqs/3.5.0-beta",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/AWSSDK.SQS.CodeAnalysis.dll",
+        "awssdk.sqs.3.5.0-beta.nupkg.sha512",
+        "awssdk.sqs.nuspec",
+        "lib/net35/AWSSDK.SQS.dll",
+        "lib/net35/AWSSDK.SQS.pdb",
+        "lib/net35/AWSSDK.SQS.xml",
+        "lib/net45/AWSSDK.SQS.dll",
+        "lib/net45/AWSSDK.SQS.pdb",
+        "lib/net45/AWSSDK.SQS.xml",
+        "lib/netstandard1.3/AWSSDK.SQS.dll",
+        "lib/netstandard1.3/AWSSDK.SQS.pdb",
+        "lib/netstandard1.3/AWSSDK.SQS.xml",
+        "lib/netstandard2.0/AWSSDK.SQS.dll",
+        "lib/netstandard2.0/AWSSDK.SQS.pdb",
+        "lib/netstandard2.0/AWSSDK.SQS.xml",
+        "tools/install.ps1",
+        "tools/uninstall.ps1"
+      ]
+    },
+    "Fundamentals.Shared/1.0.0": {
+      "type": "project",
+      "path": "../Fundamentals.Shared/Fundamentals.Shared.csproj",
+      "msbuildProject": "../Fundamentals.Shared/Fundamentals.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "AWSSDK.Glacier >= 3.5.0-beta",
+      "Fundamentals.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/srknbngl/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Glacier/Fundamentals.Glacier.csproj",
+      "projectName": "Fundamentals.Glacier",
+      "projectPath": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Glacier/Fundamentals.Glacier.csproj",
+      "packagesPath": "/home/srknbngl/.nuget/packages/",
+      "outputPath": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Glacier/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/srknbngl/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Shared/Fundamentals.Shared.csproj": {
+              "projectPath": "/home/srknbngl/001_repos/konsol.tr/aws.net-sdk/Fundamentals.Shared/Fundamentals.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "dependencies": {
+          "AWSSDK.Glacier": {
+            "target": "Package",
+            "version": "[3.5.0-beta, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.201/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
